@@ -84,6 +84,9 @@ namespace Fungus
         protected bool fadeWhenDone = true;
         protected float targetAlpha = 0f;
         protected float fadeCoolDownTimer = 0f;
+        
+        //custom memeber
+        public bool dialogEnabled = true;
 
         protected Sprite currentCharacterImage;
 
@@ -198,6 +201,10 @@ namespace Fungus
 
         protected virtual void UpdateAlpha()
         {
+            if (!dialogEnabled)
+            {
+                return;
+            }
             if (GetWriter().IsWriting)
             {
                 targetAlpha = 1f;
