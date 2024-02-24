@@ -1,6 +1,9 @@
 
 using UnityEngine;
 
+//THIS BELONGS IN THE FUNGUS > SCRIPTS > COMMANDS FOLDER 
+
+
 [CreateAssetMenu(menuName = "New InvenotryItem", order = 1)]
 public class InventoryItem : ScriptableObject
 {
