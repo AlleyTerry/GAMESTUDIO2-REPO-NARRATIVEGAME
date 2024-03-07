@@ -135,8 +135,8 @@ Day 16. Regular day. Chatted with a few people, and met someone new. The ivy hou
 Once you close the journal, you go to bed and the next day starts.]
 
 [[Day 2|Day2]]</tw-passagedata><tw-passagedata pid="7" name="Day2" tags="" position="2100,0" size="100,100">(text-colour:grey)[You wake to the sound of birds chirping gently in the trees outside your window. 
-Normally you&#39;d get up immediately, but this morning something compels you to just... lie there for a second. 
-]
+Normally you&#39;d get up immediately, but this morning something compels you to just... lie there for a second. Maybe it&#39;s your chance meeting with Ezra yesterday that makes you wonder what they do inside all day.
+But you&#39;re wasting daylight. Time to get up.]
 
 [[Get up|D2 Room]]
 </tw-passagedata><tw-passagedata pid="8" name="Duke Conversation" tags="" position="700,400" size="100,100">(text-colour:grey)[Just as you enter town, you are intercepted by Duke, the mayor.]
@@ -1209,12 +1209,29 @@ Gil: I&#39;ll get straight to the point, then.
 Gil: Are you gonna stay away from them? Like the mayor wants you to?
 
 [[Scout: No.|No]]
-[[Scout: Maybe.|Yes]]</tw-passagedata><tw-passagedata pid="59" name="D2 Room" tags="" position="2250,0" size="100,100">Scout: Time to get ready for the day.
+[[Scout: Maybe.|Yes]]</tw-passagedata><tw-passagedata pid="59" name="D2 Room" tags="" position="2250,0" size="100,100">Scout: I&#39;d better get ready. 
 
 (text-colour:grey)[You gather your things much like you did the day before and turn to the door.]
 
 [[Head outside|D2Outside]]
-</tw-passagedata><tw-passagedata pid="60" name="D2Outside" tags="" position="2400,0" size="100,100">weee</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="60" name="D2Outside" tags="" position="2400,0" size="100,100">(text-colour:grey)[You don&#39;t have any pressing tasks until later today, but you&#39;ve been meaning to explore the settlement a little more. As the newest addition, Duke advised you to put yourself out there a little more.]
+
+(if: (history:) contains &quot;AgreeDuke1&quot;)[ It&#39;s probably best that you follow his advice. He //is// the leader after all.] 
+(if: (history:) contains &quot;NeutralDuke&quot;)[You figure that he&#39;s probably right. A bit of an odd leader, but still right.] 
+(if: (history:) contains &quot;DisgreeDuke1&quot;)[Though given how he spoke about Ezra during your conversation yesterday, you&#39;re not so sure about taking his advice purely because it came from him. Something seemed... off.]
+
+(text-colour:grey)[Regardless of your personal thoughts on Duke, though, it seems you have a few options on who to patronize.]
+
+
+[[Check on Ezra again|D2 Ezra]]
+[[Pay Gil&#39;s establishment a visit|D2 Gil]]
+[[Talk to Duke|D2 Duke]]
+</tw-passagedata><tw-passagedata pid="61" name="D2 Ezra" tags="" position="2125,175" size="100,100">if trust is -2 you will NOT learn anything from ezra and will need to go to duke
+if trust is -1 they will not be forthcoming but you can get it out of them if you have the flower or the jerky
+</tw-passagedata><tw-passagedata pid="62" name="D2 Gil" tags="" position="2525,175" size="100,100"></tw-passagedata><tw-passagedata pid="63" name="D2 Duke" tags="" position="2325,175" size="100,100"></tw-passagedata><tw-passagedata pid="64" name="ALL VARIABLES AND BOOLEANS" tags="" position="1425,100" size="100,100">Ezra values: 
+$Trust
+$Attachment
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
