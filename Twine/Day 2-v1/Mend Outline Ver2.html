@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Mend Outline Ver2.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Mend Outline Ver2" startnode="45" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="d14a175a-30d5-4da9-bcf1-e9690d8233cd" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="AgreeDuke1" tags="" position="725,800" size="100,100">(text-colour:green)[(++Regard)]  (set: $Regard to it+1)
+<tw-storydata name="Mend Outline Ver2" startnode="45" creator="Twine" creator-version="2.8.1" format="Harlowe" format-version="3.3.8" ifid="d14a175a-30d5-4da9-bcf1-e9690d8233cd" options="" tags="" zoom="0.3" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="AgreeDuke1" tags="" position="725,800" size="100,100">(text-colour:green)[(++Regard)]  (set: $Regard to it+1)
 
 Scout: I&#39;ll keep that in mind.
 
@@ -1322,8 +1322,11 @@ $Trust (int)
 $Attachment (int)
 $Love (int)
 
-Duke/Town values: 
+Duke values: 
 $Regard (int)
+
+Town values: 
+$Reputation (int)
 
 Item values: 
 $Jerky (bool)
@@ -1343,7 +1346,8 @@ DAY 2
 $D2invesFail (bool) - only if you -2 trust on day 2 and bother ezra
 $D2ezraVisit (bool)
 $D2dukeVisit (bool)
-$D2gilVisit (bool)</tw-passagedata><tw-passagedata pid="65" name="D2E Noise" tags="" position="2000,425" size="100,100">(text-colour:grey)[You make a point of stomping your boots in the dead leaves piled beside the dirt path. For a few moments, there is no response... but soon enough a voice cuts through the morning air.]
+$D2gilVisit (bool)
+$D2Asuccess (bool) - whether your task succeeded or not</tw-passagedata><tw-passagedata pid="65" name="D2E Noise" tags="" position="2000,425" size="100,100">(text-colour:grey)[You make a point of stomping your boots in the dead leaves piled beside the dirt path. For a few moments, there is no response... but soon enough a voice cuts through the morning air.]
 
 Ezra: Why did you come back? 
 
@@ -1524,7 +1528,11 @@ Scout: Oh no...
 
 Ezra: It only got worse from there. Initially I just had trouble breathing, and the town doctor Brigid didn&#39;t see anything terribly wrong with me. 
 
-Ezra: But then it got worse. I started having less and less energy. I would wake up sore for no reason, even after Duke relieved me of scout duties. No matter how much I ate, I would never feel full. 
+Scout: Brigid? Isn&#39;t the doctor called Daisy?
+
+Ezra: Brigid was Daisy&#39;s predecessor. She&#39;s... not around anymore.
+
+Ezra: But eventually my illness got worse. I started having less and less energy. I would wake up sore for no reason, even after Duke relieved me of scout duties. No matter how much I ate, I would never feel full. 
 
 Ezra: Brigid tried everything she could think of, but nothing she did helped. 
 
@@ -1544,6 +1552,8 @@ Ezra: I&#39;ll be honest, I haven&#39;t talked that much in a long time... I thi
 Scout: That&#39;s okay. Take care of yourself. I&#39;ll talk to you tomorrow? 
 
 Ezra: See you then.
+
+(text-colour:green)[(++Attachment)]  (set: $Attachment to it+1)
 
 (set:$D2ezraVisit to true)
 
@@ -1642,7 +1652,7 @@ Duke: Only if you&#39;re up to it, though. Don&#39;t wanna overwork our newest s
 (if:$D2ezraVisit is false)[[Pay Ezra a visit|D2 Ezra]]
 (if:$D2gilVisit is false)[[Talk to Gil|D2 Gil]]
 (if:$D2ezraVisit and $D2gilVisit is true)[[It&#39;s probably time for your task of the day.|D2 Afternoon]]
-</tw-passagedata><tw-passagedata pid="83" name="D2 Afternoon" tags="" position="2800,1100" size="100,100">work time!! do your task
+</tw-passagedata><tw-passagedata pid="83" name="D2 Afternoon" tags="" position="2550,1000" size="100,100">work time!! do your task
 
 gather plants from the forest and you have to remember which ones are the right ones
 
@@ -1656,7 +1666,8 @@ Scout: Off we go, then.
 (text-colour:grey)[You&#39;re able to find the first three patches of wild food without any issue, but when you arrive at the stinging nettle patch you suddenly realize you don&#39;t quite remember how to gather and prepare them without hurting yourself.]
 
 [[Use gloves and soak in water after picking|D2A Success]]
-[[Pour water over the plants and wait ten minutes before picking|D2A Failure]]</tw-passagedata><tw-passagedata pid="84" name="D2A Success" tags="" position="2725,1225" size="100,100">(text-colour:red)[(++Regard)]  (set: $Regard to it+1)
+[[Pour water over the plants and wait ten minutes before picking|D2A Failure]]</tw-passagedata><tw-passagedata pid="84" name="D2A Success" tags="" position="2475,1125" size="100,100">(set: $D2Asuccess to true)
+(text-colour:red)[(++Regard)]  (set: $Regard to it+1)
 
 (text-colour:grey)[Right, your gloves. You remember Sasha saying that the stings go away after the nettles are soaked in water or cooked.
 
@@ -1664,7 +1675,8 @@ After gathering a good amount of the nettles, you tie them together with some th
 
 Right as you fish the dripping nettles out of the river, you hear the crunch of leaves behind you.]
 
-[[Scout: Hello? Who&#39;s there?|D2A Sasha Success]] </tw-passagedata><tw-passagedata pid="85" name="D2A Failure" tags="" position="2875,1225" size="100,100">(text-colour:red)[(--Regard)]  (set: $Regard to it-1)
+[[Scout: Hello? Who&#39;s there?|D2A Sasha Success]] </tw-passagedata><tw-passagedata pid="85" name="D2A Failure" tags="" position="2625,1125" size="100,100">(set: $D2Asuccess to false)
+(text-colour:red)[(--Regard)]  (set: $Regard to it-1)
 
 (text-colour:grey)[You remember Sasha saying that the stings go away after the nettles are soaked in water... but they&#39;ll sting you if you try to pick them. There&#39;s a pail sitting next to the nearby river, so maybe that&#39;s what it&#39;s for?
 
@@ -1674,7 +1686,7 @@ Well, you definitely didn&#39;t do that right.
 
 As you&#39;re nursing your stung fingers, you hear the crunch of leaves in the distance.]
 
-[[Scout: Hello? Who&#39;s there?|D2A Sasha Failure]] </tw-passagedata><tw-passagedata pid="86" name="D2A Sasha Success" tags="" position="2725,1350" size="100,100">(text-colour:grey)[You turn to see Sasha approaching you through the trees.]
+[[Scout: Hello? Who&#39;s there?|D2A Sasha Failure]] </tw-passagedata><tw-passagedata pid="86" name="D2A Sasha Success" tags="" position="2475,1250" size="100,100">(text-colour:grey)[You turn to see Sasha approaching you through the trees.]
 
 Sasha: Hey there, Scout! Heard you nearby and figured I&#39;d check on you. How&#39;s your gathering going? 
 
@@ -1690,12 +1702,12 @@ Scout: Sure thing. See you!
 
 (text-colour:grey)[With that, Sasha disappears into the forest.]
 
-[[It&#39;s getting late. You should head back to town.|D2 Evening]]</tw-passagedata><tw-passagedata pid="87" name="D2 Evening" tags="" position="2800,1650" size="100,100">(text-colour:grey)[You return to town and drop your haul off with the grocer. 
+[[It&#39;s getting late. You should head back to town.|D2 Evening]]</tw-passagedata><tw-passagedata pid="87" name="D2 Evening" tags="" position="3050,1000" size="100,100">(text-colour:grey)[You return to town and drop your haul off with the grocer. 
 
 You&#39;ve still got some time before curfew, probably enough to talk to one more person or to do Duke&#39;s task... Who, though?]
 
 [[Do Duke&#39;s task|D2 Duke Task]]
-[[Talk to Daisy|D2 Daisy]]</tw-passagedata><tw-passagedata pid="88" name="D2 Duke Task" tags="" position="2725,1775" size="100,100">(text-colour:grey)[Duke&#39;s office is located on the first floor of his and his daughter Daisy&#39;s house. He seems to have been waiting for you, opening the front door immedately after you knock.]
+[[Talk to Daisy, the town doctor|D2 Daisy]]</tw-passagedata><tw-passagedata pid="88" name="D2 Duke Task" tags="" position="2975,1125" size="100,100">(text-colour:grey)[Duke&#39;s office is located on the first floor of his and his daughter Daisy&#39;s house. He seems to have been waiting for you, opening the front door immedately after you knock.]
 
 Duke: Hello! Good to see you decided to take me up on my offer. Let&#39;s head inside and talk.
 
@@ -1703,19 +1715,96 @@ Duke: Hello! Good to see you decided to take me up on my offer. Let&#39;s head i
 
 Scout: What task did you have for me?
 
+Duke: Oh, nothing much. Just a request to keep your eyes and ears open for any type of... discontent. Malicious rumours. The sort of thing that could destroy our little community from within. 
 
+Scout: Why are you asking me specifically? I&#39;m the newest one here. 
 
-[[Scout: Has no one really tried curing Ezra? Or at least tried to figure out what they&#39;re sick with?|D2EV Doctor]]</tw-passagedata><tw-passagedata pid="89" name="D2 Daisy" tags="" position="2875,1775" size="100,100">talk 2 daisy, main doctor
+Duke: That&#39;s precisely why. You&#39;re better positioned to suss out unusual talk amongst the more established folk. I&#39;m not asking you to lie to anyone or do anything underhanded, just let me know if anything you hear seems off.
 
-backstory about how it was brigid who was the primary caretaker and she failed to figure out what ezra and bf had/prevent bf from dying and was nt able to examine the body before duke burned it so she fucked off into the woods
+[[Scout: Sure, I can do that.|D2 Duke Task Yes]]
+[[Scout: I&#39;m not sure if I&#39;m comfortable with that, to be completely honest...|D2 Duke Task No]]</tw-passagedata><tw-passagedata pid="89" name="D2 Daisy" tags="" position="3125,1125" size="100,100">(text-colour:grey)[As expected, you find Daisy in the apothecary, grinding some sort of poultice.]
 
-[[Curfew is soon. You should probably head home.|D2 Home]]</tw-passagedata><tw-passagedata pid="90" name="D2EV Doctor" tags="" position="2725,1900" size="100,100">duke tells you about brigid and how she fucked off to live in the woods after ezras bf died
+Daisy: Oh, hello. Scout, was it? Did you need anything?
 
-people h ave asked to go try and find her but she left and refused to return so he doesnt see the point 
+Scout: Not of the medicinal kind. I wanted to ask you about Ezra.
 
+(text-colour:grey)[There is suddenly a very faraway look in Daisy&#39;s eyes. She seems to be able to tell you&#39;ve been vising them.]
 
-[[Curfew is soon. You should probably head home.|D2 Home]]</tw-passagedata><tw-passagedata pid="91" name="D2 Home" tags="" position="2800,2200" size="100,100">(text-colour:grey)[Once home, you get the chance to update and then look at your journal: there&#39;s a brief summary of the day&#39;s events, and sections about each character you met with descriptions indicating how they feel about Scout/how Scout feels about them.
-part 2 electric boogaloo
+Daisy: Ezra... How are they doing?
+
+Scout: To be completely honest... not well. Do you know what they&#39;re sick with?
+
+Daisy: I... I don&#39;t. Not entirely anyway. 
+
+Daisy: Ezra wasn&#39;t the only one to get sick a few months back. Their boyfriend, Brennan, started showing the same symptoms a few days after they did.
+
+Daisy: Back then I wasn&#39;t the main doctor. Brennan&#39;s mother Brigid was. 
+
+Daisy: Despite her vast knowledge of seemingly every single disease we&#39;ve seen in our little town, she had no idea what they had or how to treat it. 
+
+Daisy: All she knew was that it seemed to be contagious, so she quarantined Ezra and Brennan in the cottage at the edge of town.
+
+Daisy: ...Brennan had never been very physically strong. He got worse much faster than Ezra did, and one morning we heard an awful wailing from the cottage. 
+
+Daisy: Brigid instantly knew what had happened, and she rushed over as fast as she could. But my father had beaten her there. 
+
+Daisy: He burned Brennan&#39;s body without telling her he would. Without letting her say goodbye to her only son. 
+
+Scout: ...
+
+Daisy: The next day, Brigid was gone. She left a note in the apothecary saying she was going out to stay in the woods and to not go looking for her. 
+
+Daisy: After everything that happened... I don&#39;t blame her for running away from it all. 
+
+Scout: I&#39;m... I&#39;m so sorry. 
+
+Daisy: You don&#39;t have anything to apologize for, Scout. 
+
+Scout: Thank you for telling me all of that. I... I can&#39;t imagine what it would have been like. 
+
+Daisy: It&#39;s alright. It feels good to finally get it off of my chest. 
+
+Daisy: Though... could you leave me alone for a little while? 
+
+Scout: Sure. It&#39;s almost curfew anyway. I should be heading home.
+
+Daisy: Good night, then. See you around.
+
+[[Go home|D2 Home]]</tw-passagedata><tw-passagedata pid="90" name="D2EV Doctor" tags="" position="2900,1375" size="100,100">(text-colour:grey)[Duke sighs, but seems to have resigned himself to your persistent curiosity.]
+
+Duke: You just won&#39;t let this go, will you? I guess I do respect your persistence. 
+
+Duke: But no, we haven&#39;t been able to find a cure for Ezra. Not even our previous doctor Brigid could do it. 
+
+(if: $D2invesFail is true)[
+Scout: Brigid?
+Duke: That&#39;s her name, yes. Apparently used to be a top-notch physician before the world went to shit.]
+
+(if: $D2invesFail is false)[
+Scout: Brigid... I think someone I talked to mentioned them before.
+Duke: Oh, so you&#39;re already familiar with her. She apparently used to be a top-notch physician before the world went to shit.]
+
+Duke: Ezra and his good friend Brennan - Brigid&#39;s son - both got sick at around the same time. Seems like Ezra caught something out in the forest and passed it to Brennan. 
+
+Duke: Brennan was never the most... physically robust. After he died, Brigid absconded into the woods, either out of grief or anger at her failure. I&#39;m still not sure. 
+
+Duke: It&#39;s mighty dangerous out in the forest - the plants and the animals all seem to be out to get you the minute you set foot too deep in there. People have asked permission to try and find Brigid, but I told them it was too dangerous. 
+
+Duke: Brigid&#39;s not like to come back anyway - she&#39;s the one that left us in the first place. Her apprentice Daisy was able to take over her duties, so it&#39;s not like we&#39;re hurting for medical attention. 
+
+Scout: ...I see. 
+
+Duke: Yeah. Mighty tragic tale, but there&#39;s not much to be done about it anymore. What&#39;s happened has happened.
+
+Duke: Well, besides that little story and the task I told you about that&#39;s about it. Did you have any questions for me?
+
+Scout: No, sir. I think that was everything.
+
+Duke: Alrighty then. It&#39;s getting near curfew, so run along home and I&#39;ll see you around.
+
+(text-colour:green)[(++Reputation)]  (set: $Reputation to it+1)
+
+[[Go home|D2 Home]]</tw-passagedata><tw-passagedata pid="91" name="D2 Home" tags="" position="3375,1150" size="100,100">(text-colour:grey)[Time to check your journal.
 
 Inventory:
 (if: $Flower is true [(text-colour:green)[Flower]]
@@ -1723,27 +1812,29 @@ Inventory:
 
 Journal:
 
-Day 17. (summary of events)
+Day 17. A lot happened today. Did my assigned tasks, 
 
-(if: $Trust = -2)[blablabla]
-(if: $Trust = -1)[blablabla]
-(if: $Trust = 0)[blablabla]
-(if: $Trust &gt; 0)[blablabla]
+(if:$D2Asuccess is true)[and even managed to avoid the rookie mistake of stinging myself on the nettles.]
+(if: $D2Asuccess is false)[but ended up stinging myself on the nettles I was supposed to gather. Lesson learned, I suppose.]
 
-&gt;&gt; update attachment values iin ezra section before finishing this part
-(if: $Attachment = -1)[They don&#39;t seem to be interested in me at all, though.]
-(if: $Attachment = 0)[I wonder if we could become friends.]
-(if: $Attachment = 1)[I think we could be friends.]
+(if: $Trust &lt; 0)[I really messed up with Ezra today... Maybe I should start keeping my distance?]
+(if: $Trust = 0)[Ezra seems to have opened up a little more.]
+(if: $Trust &gt; 0)[I&#39;m glad Ezra trusts me enough to tell me a little more about themselves.]
 
-(if: $Regard = -1)[blablabla]
-(if: $Regard = 0)[blablabla]
-(if: $Regard = 1)[blablabla]
+(if: $Attachment &lt; 0)[They still haven&#39;t shown any interest in me...]
+(if: $Attachment = 0)[I still hope we can be friends.]
+(if: $Attachment &gt; 0)[We seem to be getting along a lot better already.]
 
-&gt;&gt; add gil variable
+(if: $Regard &lt; 0)[Duke doesn&#39;t seem to like me very much... but given what I know about him, maybe that&#39;s to be expected.]
+(if: $Regard = 0)[Duke seems lukewarm on me. Not a bad place to be, all things considered.]
+(if: $Regard &gt; 0)[Duke seems to hold me in good regard. It could be useful.]
 
-Once you close the journal, you go to bed and the next day starts.]
+(if:$D2invesFail is true)[Gil had some good advice for me about how to approach Ezra&#39;s illness.]
+(if:$D2invesFail is true)[Gil gave me really good advice about leaving Ezra be since I&#39;ve already messed up so much. He&#39;s a good guy, even if I&#39;ve done some things wrong.]
 
-[[Day 3|Day 3]]</tw-passagedata><tw-passagedata pid="92" name="Day 3" tags="" position="4000,0" size="100,100"></tw-passagedata><tw-passagedata pid="93" name="D3E Ezra Brennan" tags="" position="4075,550" size="100,100">Ezra: I used to be a scout for the town, like you are now. 
+Once you close the journal you go to bed and the next day starts.]
+
+[[Day 3|Day 3]]</tw-passagedata><tw-passagedata pid="92" name="Day 3" tags="" position="4000,0" size="100,100"></tw-passagedata><tw-passagedata pid="93" name="D3E Ezra Brennan" tags="" position="4150,375" size="100,100">Ezra: I used to be a scout for the town, like you are now. 
 
 Scout: Really?
 
@@ -1782,7 +1873,7 @@ Scout: ...I don&#39;t know what to say. I feel like anything I come up with will
 
 Ezra: I know. I appreciate the thought, though. 
 
-Ezra: Me and Brennan have been quarantined in this house ever since Brigid realized how severe our illness was. And to be competely honest with you, I don&#39;t think I&#39;ll ever be able to leave. </tw-passagedata><tw-passagedata pid="94" name="D2A Sasha Failure" tags="" position="2875,1350" size="100,100">(text-colour:grey)[You turn to see Sasha approaching you through the trees.]
+Ezra: Me and Brennan have been quarantined in this house ever since Brigid realized how severe our illness was. And to be competely honest with you, I don&#39;t think I&#39;ll ever be able to leave. </tw-passagedata><tw-passagedata pid="94" name="D2A Sasha Failure" tags="" position="2625,1250" size="100,100">(text-colour:grey)[You turn to see Sasha approaching you through the trees.]
 
 Sasha: Hey there, Scout! Heard you nearby and figured I&#39;d check on you. How&#39;s your gathering going? 
 
@@ -1802,7 +1893,23 @@ Scout: Sure thing. See you!
 
 (text-colour:grey)[With that, Sasha disappears into the forest. You rub some of the ointment on your hands, and the stinging almost immmediately subsides.]
 
-[[It&#39;s getting late. You should head back to town -  after gathering the nettles properly, of course.|D2 Evening]]</tw-passagedata></tw-storydata>
+[[It&#39;s getting late. You should head back to town -  after gathering the nettles properly, of course.|D2 Evening]]</tw-passagedata><tw-passagedata pid="95" name="D2 Duke Task Yes" tags="" position="2825,1250" size="100,100">(text-colour:green)[(++Regard)]  (set: $Regard to it+1)
+
+Scout: Sure, I can do that.
+
+Duke: Excellent. Thanks for your help on this front. 
+
+Duke: While I&#39;ve got you here, did you have any pressing questions for me?
+
+[[Scout: Has no one really tried curing Ezra? Or at least tried to figure out what they&#39;re sick with?|D2EV Doctor]]</tw-passagedata><tw-passagedata pid="96" name="D2 Duke Task No" tags="" position="2975,1250" size="100,100">(text-colour:red)[(--Regard)]  (set: $Regard to it-1)
+
+Scout: I&#39;m not sure if I&#39;m comfortable with that, to be completely honest...
+
+Duke: ...Well, I suppose it was a bit of a steep ask. It&#39;s alright - just forget I ever made that request of you. 
+
+Duke: While I&#39;ve got you here, did you have any pressing questions for me?
+
+[[Scout: Has no one really tried curing Ezra? Or at least tried to figure out what they&#39;re sick with?|D2EV Doctor]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
