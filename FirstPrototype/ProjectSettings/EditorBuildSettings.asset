@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/isaac save test.unity
     guid: f265ee03f4a235043af5049a36861d21
   - enabled: 1
-    path: Assets/Scenes/Day1 Test.unity
+    path: Assets/Scenes/Day1Test.unity
     guid: 7b40e09ff67220c4ebfe92866ba74ff2
   - enabled: 1
     path: Assets/Scenes/Day2Test.unity
