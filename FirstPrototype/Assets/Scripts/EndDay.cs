@@ -1,12 +1,15 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 using UnityEngine.SceneManagement;
 
-public class Scr_ScenePersistence : MonoBehaviour
+public class EndDay : MonoBehaviour
 {
-    public static Scr_ScenePersistence instance;
+    public Fungus.Flowchart MainFlowChart;
+    //set enmum days
+    //make switch statement and cases for ending each day
+    public static EndDay instance;
 
     private void Awake()
     {
@@ -19,5 +22,12 @@ public class Scr_ScenePersistence : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void EndDayButton()
+    {
+        SceneManager.LoadScene("Day2Test");
+        MainFlowChart.ExecuteBlock("Day2START");
+
     }
 }
