@@ -8,17 +8,16 @@ using UnityEngine;
 public class InventoryItem : ScriptableObject
 {
     public static InventoryItem instance;
-    public bool itemOwned = false;
+    //public bool itemOwned = false;
 
     public string itemName;
     public Sprite itemIcon;
+    public string itemDesc;
 
-    public bool combinable;
-    public InventoryItem[] combinableItem;
-    public string[] successBlockName;
-    public string failBlockName;
-    
-    
+ 
+   
+
+
 }
 
 
