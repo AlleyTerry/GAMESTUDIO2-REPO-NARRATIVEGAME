@@ -1,60 +1,59 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Fungus;
+using TMPro;
 using UnityEditor.VersionControl;
+using UnityEngine.UI;
+using Fungus;
+using Unity.VisualScripting;
+using Fungus;
 
 public class InventoryNew : MonoBehaviour
 {
-    public Fungus.Flowchart MainFlowchart;
-    //we are going to itterate through this list to see if a slot is empyt
     public ItemSlot[] itemSlots;
-    public string currentItemString;
+    public static ItemSlot holderFunction = new ItemSlot();
+    public Fungus.Flowchart MainFlowchart;
     public ScriptableObject itemToAdd;
-    public GameObject myInventory;
-    
 
-    private void Start()
+
+    public void ListGoThrough()
     {
-       
-    }
-
-
-    public void addItem()
-    {
-        
         StringVariable currentItemStringVar = MainFlowchart.GetVariable("CurrentItem") as StringVariable;
         //currentItemStringVar.Value = currentItemString;
         Debug.Log(currentItemStringVar + "is the current item being held");
         
-        //setting a variable from the flowchar in code
+        
+        //setting a variable from the flowchart in code
         //BooleanVariable boolVar = MainFlowchart.GetVariable("MyBool") as BooleanVariable; 
         //boolVar.Value = false;
         string newPath = "Prefabs/Items/" + currentItemStringVar;
         Debug.Log(newPath);
         itemToAdd = Instantiate(Resources.Load<ScriptableObject>(newPath));
-
+        Debug.Log(itemToAdd);
         for (int i = 0; i < itemSlots.Length; i++)
         {
-            if (itemSlots[i] == null)
+            Debug.Log(itemSlots[i].name);
+            if (itemSlots[i].isFull == false)
             {
-                ItemsNew.instance.UpdateStats(itemToAdd);
+                Debug.Log("hey the first part is working");
+                holderFunction.TestDebug();
+                holderFunction.addItem((ItemsNew)itemToAdd);
+                
                 break;
             }
             else
             {
                 return;
             }
+            break;
         }
-       
     }
 
-    void Update()
-    {
-        if (Input.GetKey(KeyCode.Tab))
-        {
-            myInventory.SetActive(true);
-        }
-    }
+
+   
+
+    
 }

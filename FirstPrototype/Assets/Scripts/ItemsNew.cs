@@ -16,11 +16,12 @@ public class ItemsNew : ScriptableObject
     public string itemDesc;
     public Sprite itemIcon;
 
-    public void UpdateStats(ScriptableObject newItem)
+    public void UpdateStats(ItemSlot newItem)
     {
-        ItemSlot.instance.nameBox.text = itemName;
-        ItemSlot.instance.descriptionBox.text = itemDesc;
-        ItemSlot.instance.imageIcon.sprite = itemIcon;
+        Debug.Log("is this here: " + newItem);
+        newItem.nameBox.text = itemName;
+        newItem.descriptionBox.text = itemDesc;
+        newItem.imageIcon.sprite = itemIcon;
     }
     
     

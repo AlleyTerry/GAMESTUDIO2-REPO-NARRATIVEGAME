@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a15e6e0f0b06824e86ad89723be2781, type: 3}
-  m_Name: Jerky
+  m_Name: Flower
   m_EditorClassIdentifier: 
-  itemName: Jerky
-  itemDesc: Yum Jerky
-  itemIcon: {fileID: 21300000, guid: 00fb34b4378fb0b4b902a2716d388ddd, type: 3}
+  itemName: Flower
+  itemDesc: Shasha's Flower
+  itemIcon: {fileID: 21300000, guid: 360008b204c53e84f93fcb0698abd201, type: 3}
