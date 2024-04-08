@@ -10,6 +10,7 @@ public class scr_SaveLoad : MonoBehaviour
     // Execute block using string name in code
     public Fungus.Flowchart MFlowchart;
     public SaveFile save = new SaveFile();
+    public string openBlock;
     //public string SavedBlock;
     //public bool D1TryDoor, D1Wait, D1Coach,
     //    D1Neighbor, D1Promise, 
@@ -17,10 +18,14 @@ public class scr_SaveLoad : MonoBehaviour
     //public int Trust, Attachment, Love, Regard;
 
 
+    private void FixedUpdate()
+    {
+        openBlock = MFlowchart.SelectedBlock.BlockName;
+    }
 
     public void SaveGame()
     {
-        save.SavedBlock = MFlowchart.SelectedBlock.BlockName;
+        save.SavedBlock = openBlock;
 
         save.D1TryDoor = MFlowchart.GetBooleanVariable("D1TryDoor");
         save.D1Wait = MFlowchart.GetBooleanVariable("D1Wait");
@@ -51,6 +56,9 @@ public class scr_SaveLoad : MonoBehaviour
 
     public void LoadGame()
     {
+        MFlowchart.StopAllBlocks();
+        GameObject OpenMenu = GameObject.FindWithTag("Choice Menu");
+        Destroy(OpenMenu);
         LoadFromJson();
 
         //Load all the bools
