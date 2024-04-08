@@ -14,9 +14,8 @@ using Fungus;
 public class InventoryNew : MonoBehaviour
 {
     public ItemSlot[] itemSlots;
-    public static ItemSlot holderFunction = new ItemSlot();
     public Fungus.Flowchart MainFlowchart;
-    public ScriptableObject itemToAdd;
+    public ItemsNew itemToAdd;
 
 
     public void ListGoThrough()
@@ -31,7 +30,7 @@ public class InventoryNew : MonoBehaviour
         //boolVar.Value = false;
         string newPath = "Prefabs/Items/" + currentItemStringVar;
         Debug.Log(newPath);
-        itemToAdd = Instantiate(Resources.Load<ScriptableObject>(newPath));
+        itemToAdd = (ItemsNew)Instantiate(Resources.Load<ScriptableObject>(newPath));
         Debug.Log(itemToAdd);
         for (int i = 0; i < itemSlots.Length; i++)
         {
@@ -39,16 +38,12 @@ public class InventoryNew : MonoBehaviour
             if (itemSlots[i].isFull == false)
             {
                 Debug.Log("hey the first part is working");
-                holderFunction.TestDebug();
-                holderFunction.addItem((ItemsNew)itemToAdd);
-                
+                itemSlots[i].TestDebug();
+                itemSlots[i].addItem(itemToAdd);
                 break;
             }
-            else
-            {
-                return;
-            }
-            break;
+            
+            
         }
     }
 

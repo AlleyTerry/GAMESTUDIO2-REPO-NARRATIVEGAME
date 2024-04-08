@@ -35,7 +35,7 @@ public class scr_DialogueDisable : MonoBehaviour
         {
         foreach (GameObject button in buttons)
         {
-            button.SetActive(false);
+             button.SetActive(false);
         }
         //    UI = GameObject.FindGameObjectWithTag("Dialogue");
         //    if (UI == null)
