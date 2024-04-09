@@ -5,7 +5,6 @@ using System.Linq;
 using UnityEngine;
 using Fungus;
 using TMPro;
-using UnityEditor.VersionControl;
 using UnityEngine.UI;
 using Fungus;
 using Unity.VisualScripting;
@@ -35,7 +34,7 @@ public class InventoryNew : MonoBehaviour
         for (int i = 0; i < itemSlots.Length; i++)
         {
             Debug.Log(itemSlots[i].name);
-            if (itemSlots[i].isFull == false)
+            if (itemSlots[i].isFull == false && itemSlots[i].tag == itemToAdd.itemName)
             {
                 Debug.Log("hey the first part is working");
                 itemSlots[i].TestDebug();

@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Day1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/isaac save test.unity
-    guid: f265ee03f4a235043af5049a36861d21
+    path: Assets/Scenes/PersistentScene.unity
+    guid: f34981af064734340988e272955a453d
   - enabled: 1
     path: Assets/Scenes/Day1Test.unity
     guid: 7b40e09ff67220c4ebfe92866ba74ff2
   - enabled: 1
     path: Assets/Scenes/Day2Test.unity
     guid: 3056c253bdf90804f8bf50cdaa5fb2ea
+  - enabled: 0
+    path: Assets/Scenes/Day1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/isaac save test.unity
+    guid: f265ee03f4a235043af5049a36861d21
   m_configObjects: {}

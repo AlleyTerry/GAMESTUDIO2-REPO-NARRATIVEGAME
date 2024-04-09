@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Dialogue
   - Choice Menu
+  - Jerky
+  - Flower
   layers:
   - Default
   - TransparentFX
