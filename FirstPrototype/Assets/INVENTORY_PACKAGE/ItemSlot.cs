@@ -14,6 +14,7 @@ public class ItemSlot : MonoBehaviour
     public Image imageIcon;
     public TextMeshProUGUI nameBox;
     public TextMeshProUGUI descriptionBox;
+    public GameObject nameButton;
   
     
     //we are going to itterate through this list to see if a slot is empyt

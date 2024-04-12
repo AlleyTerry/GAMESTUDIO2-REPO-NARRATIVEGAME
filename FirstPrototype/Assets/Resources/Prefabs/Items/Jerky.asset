@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Jerky
   itemDesc: Yum Jerky
-  itemIcon: {fileID: 21300000, guid: 00fb34b4378fb0b4b902a2716d388ddd, type: 3}
+  itemIcon: {fileID: 21300000, guid: c5d4f6df2f812384c8064579ff76a630, type: 3}

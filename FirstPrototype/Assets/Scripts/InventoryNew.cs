@@ -36,6 +36,7 @@ public class InventoryNew : MonoBehaviour
             Debug.Log(itemSlots[i].name);
             if (itemSlots[i].isFull == false && itemSlots[i].tag == itemToAdd.itemName)
             {
+                itemSlots[i].nameButton.gameObject.SetActive(true);
                 Debug.Log("hey the first part is working");
                 itemSlots[i].TestDebug();
                 itemSlots[i].addItem(itemToAdd);
