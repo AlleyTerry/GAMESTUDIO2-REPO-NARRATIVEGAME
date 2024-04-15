@@ -6257,7 +6257,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 238.99997
     y: 87.6379
-    width: 130
+    width: 136.04645
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -6368,7 +6368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1188.9706
     y: 91.206276
-    width: 151.17648
+    width: 153.48828
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -6415,7 +6415,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1185.2424
     y: 142.54599
-    width: 127.647064
+    width: 131.3953
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -6465,7 +6465,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1190.88
     y: 195.00494
-    width: 160.58826
+    width: 166.27898
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -7254,7 +7254,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1001.7942
     y: 35.921913
-    width: 151.17648
+    width: 151.16272
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -7308,7 +7308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 989.22064
     y: 79.73156
-    width: 118.2353
+    width: 119.76739
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -7363,7 +7363,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 939.7858
     y: 123.467804
-    width: 148.82355
+    width: 149.99992
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -7423,7 +7423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 880.52014
     y: 168.2684
-    width: 177.05884
+    width: 182.55803
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -9331,7 +9331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 588.4429
     y: 133.9157
-    width: 158.2353
+    width: 162.79062
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -9677,7 +9677,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 427.8364
     y: 157.51262
-    width: 153.52942
+    width: 156.97665
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -9935,7 +9935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 261.57568
     y: 15.413811
-    width: 115.88236
+    width: 118.6046
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -9999,7 +9999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 225.38174
     y: 162.05928
-    width: 125.29413
+    width: 127.90691
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -17882,7 +17882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 602.4085
     y: 87.36401
-    width: 125.29413
+    width: 129.0697
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -18192,7 +18192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 431.20865
     y: 109.23676
-    width: 115.88236
+    width: 117.44181
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -18916,7 +18916,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 467.5652
     y: 57.184692
-    width: 127.647064
+    width: 130.2325
     height: 40
   tint: {r: 0.54901963, g: 0.21960784, b: 0.6431373, a: 1}
   useCustomTint: 1
@@ -19851,7 +19851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2364.5032
     y: 203.67598
-    width: 181.76472
+    width: 181.39525
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -20220,7 +20220,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2157.8247
     y: 241.27603
-    width: 177.05884
+    width: 176.74408
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -20594,7 +20594,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2172.3657
     y: 197.41574
-    width: 134.7059
+    width: 137.20923
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -20878,7 +20878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2143.4248
     y: 149.07962
-    width: 195.88237
+    width: 199.99988
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -21301,7 +21301,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1926.6143
     y: 175.18907
-    width: 172.35297
+    width: 170.93015
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -21516,7 +21516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1893.1654
     y: 233.27602
-    width: 233.52943
+    width: 234.88358
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -21658,7 +21658,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1641.9653
     y: 226.076
-    width: 198.2353
+    width: 194.18593
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -21794,7 +21794,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1657.0262
     y: 167.01515
-    width: 207.64708
+    width: 202.32547
     height: 40
   tint: {r: 1, g: 0.42745098, b: 0.42745098, a: 1}
   useCustomTint: 1
@@ -21928,7 +21928,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1442.0176
     y: 168.51514
-    width: 158.2353
+    width: 156.97665
     height: 40
   tint: {r: 1, g: 0.42830187, b: 0.42830187, a: 1}
   useCustomTint: 1
@@ -22897,7 +22897,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3745.4194
     y: 88.223724
-    width: 162.9412
+    width: 163.9534
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -23039,7 +23039,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3516.8115
     y: 129.93765
-    width: 170.00002
+    width: 168.60455
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -23452,7 +23452,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3534.978
     y: 67.34201
-    width: 205.29413
+    width: 204.65105
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -23720,7 +23720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3231.9902
     y: 141.73569
-    width: 165.29413
+    width: 161.62782
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -23983,7 +23983,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3235.0264
     y: 98.228485
-    width: 221.76472
+    width: 219.7673
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -24603,7 +24603,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3235.558
     y: 50.792908
-    width: 177.05884
+    width: 173.2557
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -24818,7 +24818,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3019.072
     y: 100.31433
-    width: 139.41177
+    width: 141.8604
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -25118,7 +25118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3017.5957
     y: 49.43805
-    width: 141.76471
+    width: 143.0232
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -25372,7 +25372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2774.181
     y: 41.004242
-    width: 153.52942
+    width: 152.3255
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -25652,7 +25652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2778.4253
     y: 143.44669
-    width: 162.9412
+    width: 158.13945
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -26013,7 +26013,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2788.5808
     y: 100.77728
-    width: 148.82355
+    width: 148.83713
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -26183,7 +26183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2573.9238
     y: 111.591644
-    width: 141.76471
+    width: 143.0232
     height: 40
   tint: {r: 0.33333334, g: 0.60784316, b: 0.30980393, a: 1}
   useCustomTint: 1
@@ -27263,7 +27263,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2783.4739
     y: 572.74133
-    width: 205.29413
+    width: 205.81383
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -27320,7 +27320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3167.648
     y: 505.63492
-    width: 188.82355
+    width: 181.39525
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -27374,9 +27374,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3958.628
-    y: 483.35086
-    width: 186.4706
+    x: 3953.4556
+    y: 475.59225
+    width: 186.0464
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -27436,7 +27436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3452.1248
     y: 584.1279
-    width: 193.52943
+    width: 193.02315
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31170,7 +31170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2592.25
     y: 342.9388
-    width: 165.29413
+    width: 165.11618
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31216,7 +31216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3144.7673
     y: 277.91055
-    width: 167.64706
+    width: 166.27898
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31292,7 +31292,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3155.4785
     y: 363.04388
-    width: 179.41177
+    width: 180.23245
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31330,7 +31330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3164.95
     y: 428.63882
-    width: 205.29413
+    width: 205.81383
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31374,7 +31374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3163.5469
     y: 704.2026
-    width: 158.2353
+    width: 158.13945
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31414,7 +31414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3143.2637
     y: 591.93
-    width: 202.9412
+    width: 203.48825
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31449,7 +31449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3467.49
     y: 650.05225
-    width: 172.35297
+    width: 169.76735
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -31499,7 +31499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3433.1133
     y: 699.7792
-    width: 238.23532
+    width: 231.3952
     height: 40
   tint: {r: 0.24705882, g: 0.91764706, b: 0.84705883, a: 1}
   useCustomTint: 1
@@ -33044,9 +33044,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 4496.7173
-    y: 305.50983
-    width: 115.88236
+    x: 4558.3394
+    y: 321.31268
+    width: 120.930176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33058,6 +33058,7 @@ MonoBehaviour:
   - {fileID: 7357525099284176742}
   - {fileID: 918493268}
   - {fileID: 7357525099284176743}
+  - {fileID: 7357525099284176783}
   suppressAllAutoSelections: 0
 --- !u!114 &918493271
 MonoBehaviour:
@@ -55109,15 +55110,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: zoom
-      value: 0.33999997
+      value: 0.7600001
       objectReference: {fileID: 0}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: scrollPos.x
-      value: -1034.5083
+      value: -4306.924
       objectReference: {fileID: 0}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: scrollPos.y
-      value: 50.768204
+      value: -425.9655
       objectReference: {fileID: 0}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: blockViewHeight
@@ -55189,12 +55190,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
       value: 
-      objectReference: {fileID: 918492942}
+      objectReference: {fileID: 7357525099284176752}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: selectedBlocks.Array.data[1]
       value: 
@@ -55246,7 +55247,7 @@ PrefabInstance:
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: selectedCommands.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 7357525099284176773}
     - target: {fileID: 7985040167511302134, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: selectedCommands.Array.data[1]
       value: 
@@ -55281,7 +55282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8492711383053653722, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: nodeRect.width
-      value: 130
+      value: 134.86841
       objectReference: {fileID: 0}
     - target: {fileID: 8492711383053653722, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       propertyPath: commandList.Array.size
@@ -57663,6 +57664,108 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7357525099284176751}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176785}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176784}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176783}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176782}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176781}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176780}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176752}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176779}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176774}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176760}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176754}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176778}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176776}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176756}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176758}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176762}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176771}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176768}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176764}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176766}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176770}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176761}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176755}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176757}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176777}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176775}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176767}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176763}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176772}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176765}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176769}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176773}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176753}
+    - targetCorrespondingSourceObject: {fileID: 8885683471286663895, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7357525099284176759}
   m_SourcePrefab: {fileID: 100100000, guid: 6c893c39cbe450d428cb323690f962e2, type: 3}
 --- !u!114 &7357525099284176716 stripped
 MonoBehaviour:
@@ -58653,7 +58756,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &7357525099284176751
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -58666,6 +58769,821 @@ MonoBehaviour:
   parentBlock: {fileID: 918492942}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &7357525099284176752
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4697.26
+    y: 456.71454
+    width: 117.44181
+    height: 40
+  tint: {r: 0.37254903, g: 0.14901961, b: 0.43921572, a: 1}
+  useCustomTint: 1
+  itemId: 869
+  blockName: 'Day 2 : Ezra'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176773}
+  - {fileID: 7357525099284176759}
+  - {fileID: 7357525099284176753}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 884
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176754}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176754
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4519.833
+    y: 530.1518
+    width: 160.46503
+    height: 40
+  tint: {r: 0.35686275, g: 0.14117648, b: 0.41960788, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Hello'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176755}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176755
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 874
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176756}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176756
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4699.2485
+    y: 742.1056
+    width: 187.2092
+    height: 40
+  tint: {r: 0.34117648, g: 0.13725491, b: 0.40000004, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Expansion'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176757}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176757
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 875
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176758}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176758
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4511.064
+    y: 775.24097
+    width: 172.09293
+    height: 40
+  tint: {r: 0.36078432, g: 0.14509805, b: 0.42352945, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Wrapup'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 885
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176760}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176760
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4837.0767
+    y: 529.2897
+    width: 162.79062
+    height: 40
+  tint: {r: 0.3529412, g: 0.14117648, b: 0.4156863, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Noise'
+  description: add if tree
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176770}
+  - {fileID: 7357525099284176761}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176761
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 873
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176762}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176762
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 5048.77
+    y: 610.09406
+    width: 209.3022
+    height: 40
+  tint: {r: 0.3529412, g: 0.14117648, b: 0.4156863, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Noise -1 Trust'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176767}
+  - {fileID: 7357525099284176763}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176763
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 879
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176764}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176764
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 5250.786
+    y: 666.7694
+    width: 181.39525
+    height: 40
+  tint: {r: 0.40000004, g: 0.16078432, b: 0.47450984, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - No Jerky'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176765}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176765
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 881
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176766}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176766
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 5282.2227
+    y: 529.32306
+    width: 226.74405
+    height: 40
+  tint: {r: 0.3372549, g: 0.13333334, b: 0.39607847, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Investigation Fail'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176767
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 878
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176768}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176768
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 5028.747
+    y: 669.915
+    width: 161.62782
+    height: 40
+  tint: {r: 0.4431373, g: 0.1764706, b: 0.52156866, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Jerky'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176769}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176769
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 882
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176756}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176770
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 872
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176771}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 5044.264
+    y: 530.65955
+    width: 177.90688
+    height: 40
+  tint: {r: 0.35686275, g: 0.14117648, b: 0.41960788, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - No Trust'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176772}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176772
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 880
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176766}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 883
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176774}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4675.6016
+    y: 528.3335
+    width: 160.46503
+    height: 40
+  tint: {r: 0.34509805, g: 0.13725491, b: 0.40784317, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Greet'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176777}
+  - {fileID: 7357525099284176775}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176775
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 877
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176776}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176776
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4851.563
+    y: 647.1231
+    width: 163.9534
+    height: 40
+  tint: {r: 0.3803922, g: 0.15294118, b: 0.45098042, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Forest'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176777
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 876
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176778}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176778
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4694.1284
+    y: 645.56067
+    width: 148.83713
+    height: 40
+  tint: {r: 0.3529412, g: 0.14117648, b: 0.4156863, a: 1}
+  useCustomTint: 1
+  itemId: 871
+  blockName: 'Day 2 : Ezra - Bar'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176779
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 870
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176780
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 5309.7383
+    y: 426.10822
+    width: 124.41855
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 868
+  blockName: 'Day 2 : Duke'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176781
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4263.9404
+    y: 386.6756
+    width: 110.46507
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 867
+  blockName: 'Day 2 : Gil'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176782
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 866
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176784}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 865
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7357525099284176785}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &7357525099284176784
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4792.128
+    y: 320.04346
+    width: 137.20923
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 864
+  blockName: 'Day 2 : Outside'
+  description: MAP OPENS HERE
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176779}
+  suppressAllAutoSelections: 0
+--- !u!114 &7357525099284176785
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918492481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4680.521
+    y: 235.98956
+    width: 123.25576
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 863
+  blockName: 'Day2 : Room'
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 7357525099284176782}
+  suppressAllAutoSelections: 0
 --- !u!1 &7516410434276899007
 GameObject:
   m_ObjectHideFlags: 0
