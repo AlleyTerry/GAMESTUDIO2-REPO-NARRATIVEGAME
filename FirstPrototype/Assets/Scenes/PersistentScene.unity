@@ -42083,7 +42083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 2
   nextClickDelay: 0
-  cancelEnabled: 0
+  cancelEnabled: 1
   ignoreMenuClicks: 1
 --- !u!114 &1780951248
 MonoBehaviour:
@@ -53845,7 +53845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4472378896945465039, guid: 53a0cdfa5287d7c4197a9ab6baef3741, type: 3}
       propertyPath: cancelEnabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53900,7 +53900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 850504989676326642, guid: 15786abee932dce4184da1dbec2f2288, type: 3}
       propertyPath: cancelEnabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1250327893561966202, guid: 15786abee932dce4184da1dbec2f2288, type: 3}
       propertyPath: m_FontData.m_BestFit
