@@ -11,13 +11,17 @@ public class scr_SaveLoad : MonoBehaviour
     public Fungus.Flowchart MFlowchart;
     public SaveFile save = new SaveFile();
     public string openBlock;
+    public pause_script p_script;
     //public string SavedBlock;
     //public bool D1TryDoor, D1Wait, D1Coach,
     //    D1Neighbor, D1Promise, 
     //    NothingDuke, ChoseDuke, FlowersGot;
     //public int Trust, Attachment, Love, Regard;
 
-
+    private void Start()
+    {
+        p_script = gameObject.GetComponent<pause_script>();
+    }
     private void FixedUpdate()
     {
         openBlock = MFlowchart.SelectedBlock.BlockName;
@@ -56,6 +60,7 @@ public class scr_SaveLoad : MonoBehaviour
 
     public void LoadGame()
     {
+        if(p_script.pause == true) { p_script.ResumeGame(); }
         MFlowchart.StopAllBlocks();
         GameObject OpenMenu = GameObject.FindWithTag("Choice Menu");
         Destroy(OpenMenu);
