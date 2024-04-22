@@ -406,7 +406,9 @@ Duke: That sickness he&#39;s got is mighty dangerous. You oughtta stay away from
 
 Scout: We ended up chatting for a bit.
 
-Duke: Oh, Ezra? Yep, that ol&#39; place is his. He doesn&#39;t show his face &#39;round here much at all anymore on account of his sickness, so you wouldn&#39;ta had the chance to meet him before- awful shame, y&#39;all mighta been friends seein&#39; as he&#39;s about your age. He doesn&#39;t leave his house at all nowadays, actually. Not that I know of, anyhow. All them vines growin&#39; over his windows are proof enough o&#39; that.
+Duke: Oh, Ezra? Yep, that ol&#39; place is his. He doesn&#39;t show his face &#39;round here much at all anymore on account of his sickness, so you wouldn&#39;ta had the chance to meet him before- awful shame, y&#39;all mighta been friends seein&#39; as he&#39;s about your age. 
+
+Duke: He doesn&#39;t leave his house at all nowadays, actually. Not that I know of, anyhow. All them vines growin&#39; over his windows are proof enough o&#39; that.
 
 Duke: No one really goes to see him neither, so most people don&#39;t head out that way. I guess it&#39;s unavoidable for ya, seein&#39; as you live down that same road, but I&#39;d be careful if I were you. 
 
@@ -1043,7 +1045,11 @@ Ezra: Goodbye, Scout.
 
 [[Go to Town|Duke Conversation]]</tw-passagedata><tw-passagedata pid="53" name="Coach" tags="" position="250,500" size="100,100">(text-colour:green)[++Trust] (set: $Trust to it+1)
 
-Scout: Okay, it&#39;ll be okay, just listen to me, let&#39;s stay calm! It- it sounds like you can&#39;t breathe right, so you have to... It&#39;ll help if you can close your mouth and try to breathe just through your nose, alright? Try to slow down, put your hand on your stomach and let it fill up with air- deep breaths! In two, out four!! 
+Scout: Okay, it&#39;ll be okay, just listen to me, let&#39;s stay calm! It- it sounds like you can&#39;t breathe right, so you have to... 
+
+Scout: It&#39;ll help if you can close your mouth and try to breathe just through your nose, alright? 
+
+Scout: Try to slow down, put your hand on your stomach and let it fill up with air- deep breaths! In two, out four!! 
 
 (text-colour:grey)[*(Ezra begins to take in shakey, heaving breaths, but they keep getting clipped on the inhale and come out as choked coughs)*]
 
@@ -1274,18 +1280,25 @@ Scout: Who should I talk to?
 [[Check on Ezra again|D2 Ezra]]
 [[Pay the apothecary a visit|D2 Gil]]
 [[Talk to Duke|D2 Duke]]
-</tw-passagedata><tw-passagedata pid="61" name="D2 Ezra" tags="" position="2150,300" size="100,100">(text-colour:grey)[The vine-ridden cottage is eerily quiet, unlike your last visit.]
+</tw-passagedata><tw-passagedata pid="61" name="D2 Ezra" tags="" position="2150,300" size="100,100">(set:$D2ezraVisit  to true)
 
-(if: $Trust is -2) [Is it really a good idea to intrude again? You seemed to really upset Ezra last time... maybe it would be wise to stay away.]
-(if: $Trust is -1) [Remember, you did upset Ezra yesterday. If you insist on talking to them... tread carefully.]
+(text-colour:grey)[The vine-ridden cottage is eerily quiet, unlike your last visit.]
+
+(if: $Trust is -2) [You hesitate before approaching. You wonder, is it really a good idea to intrude again? You seemed to really upset Ezra last time you spoke. They might not want to see you again, much less answer any questions. Maybe it would be wise to stay away...]
+
+(if: $Trust is -1) [You hesitate for a moment, remembering how you ended up upsetting Ezra a bit yesterday. They might not be too eager to talk to you again today after that. If you want this conversation to go well, it might be a good idea to tread carefully.]
+
 (if: $Trust is 0) [You haven&#39;t really gotten close to Ezra yet. They don&#39;t have a reason to mistrust you... nor to trust you. You might be able to get somewhere with them, but you&#39;ll have to earn it.]
+
 (if: $Trust is 1 or 2) [You and Ezra got along well yesterday. You&#39;re hopeful that you&#39;ll be able to have a good conversation with them today too.] 
 
 (if: $Trust is -2 or -1) [[Don&#39;t say anthing yet, but make some noise outside|D2E Noise]]
 (if: $Trust is 0) [[Scout: Hello?|D2E Hello]]
 (if: $Trust is 1 or 2) [[Scout: Ezra, are you there? It&#39;s Scout.|D2E Greet]]
 [[Visit the apothecary instead|D2 Gil]]
-[[Visit Duke instead|D2 Duke]]</tw-passagedata><tw-passagedata pid="62" name="D2 Gil" tags="" position="3250,125" size="100,100">(text-colour:grey)[You head to the infirmary in search of the apothecary. Outside, you run into Gil(if: (history:) contains &quot;Forest&quot;)[, the owner and proprietor of Divine Iris].]
+[[Visit Duke instead|D2 Duke]]</tw-passagedata><tw-passagedata pid="62" name="D2 Gil" tags="" position="3250,125" size="100,100">(set:$D2gilVisit to true)
+
+(text-colour:grey)[You head to the infirmary in search of the apothecary. Outside, you run into Gil(if: (history:) contains &quot;Forest&quot;)[, the owner and proprietor of Divine Iris].]
 
 Gil: Hey there. 
 
@@ -1316,7 +1329,9 @@ Gil: Talking to them might be a good place to start.
 [[Scout: Easier said than done.|D2G Communication&#39;s Hard]]
 [[Scout: I guess you&#39;re right.|D2G Gil&#39;s Right]]
 
-</tw-passagedata><tw-passagedata pid="63" name="D2 Duke" tags="" position="2800,150" size="100,100">(text-colour:grey)[You head to town square and find Duke standing by the fountain, chatting with some townspeople.
+</tw-passagedata><tw-passagedata pid="63" name="D2 Duke" tags="" position="2800,150" size="100,100">(set:$D2dukeVisit to true)
+
+(text-colour:grey)[You head to town square and find Duke standing by the fountain, chatting with some townspeople.
 
 (if: $Regard is 1) [You&#39;re optimistic that he&#39;ll have something helpful to share(if: (history:) contains &quot;D2Gil&quot;)[, although you can&#39;t shake the thought that Ezra would be unhappy if they found out you were talking to him about them].]
 (if: $Regard is 0) [You hope he knows something helpful(if: (history:) contains &quot;D2Gil&quot;)[, but a part of you wonders if whatever information he has is worth risking Ezra&#39;s good will.]]
@@ -1381,26 +1396,33 @@ Scout: Wait, what?
 
 Ezra: It&#39;s... a long story. Not a nice one.
 
-[[Scout: I don&#39;t mind listening. If you don&#39;t mind telling me, of course.|D2E Explanation]]</tw-passagedata><tw-passagedata pid="67" name="D2E Greet" tags="" position="2300,425" size="100,100">(text-colour:grey)[You hear the faint sound of footsteps approaching the front of the house.]
+[[Scout: I don&#39;t mind listening. If you don&#39;t mind telling me, of course.|D2E Explanation]]</tw-passagedata><tw-passagedata pid="67" name="D2E Greet" tags="" position="2300,425" size="100,100">(text-colour:grey)[You hear the faint sound of footsteps approaching the front door of the house.]
 
-Ezra: Oh, it&#39;s you. I&#39;m... surprised you came by again. 
+Ezra: It&#39;s you. I&#39;m surprised you came by again. 
 
-Scout: Yeah, you said yesterday that the house is far too big for you by yourself, and that you don&#39;t really have much to do... So I figured I&#39;d start keeping you company more often when I have time. 
+Scout: Yeah, of course I did. I said I would, didn&#39;t I?
 
-Ezra: ...Thank you. Just don&#39;t get yourself in trouble with Duke over it. 
+Scout: Can&#39;t let you languish in that big, empty house right? Aside from work, I don&#39;t have much to do, so figured I&#39;d start keeping you company when I can. 
+
+Ezra: Oh. Thank you... Careful though, you might get yourself in trouble with the mayor over it.
 
 (if: (history:) contains &quot;AgreeDuke1&quot;)
-[Scout: Trouble? Why would I get in trouble? I figure as long as I don&#39;t get too close I won&#39;t catch what you have, right?
-Ezra: That&#39;s not what Duke thinks. He gave you his whole spiel about not &quot;fraternizing with the ill&quot;, didn&#39;t he?]
+[Scout: I figure as long as I don&#39;t get too close I won&#39;t catch what you have, so there shouldn&#39;t be a problem there.
+
+Ezra: That&#39;s not what he thinks. He gave you his whole spiel about not &quot;fraternizing with the ill&quot;, didn&#39;t he?]
 
 (if: (history:) contains &quot;NeutralDuke&quot;)
 [Scout: I&#39;ll try... but he doesn&#39;t seem like he likes you very much.
+
 Ezra: He doesn&#39;t.
+
 Scout: Wow, that&#39;s rather blunt of you... but you&#39;re right, I suppose.]
 
-(if: (history:) contains &quot;DisgreeDuke1&quot;)
-[Scout: I think that&#39;s all but inevitable, given what Duke said yesterday when he noticed I was out here...
-Ezra: He noticed you were out here?!
+(if: (history:) contains &quot;Duke Was Wrong&quot; or &quot;No&quot;)
+[Scout: That&#39;s pretty much unavoidable I think, given what Duke said yesterday when he noticed I was out here...
+
+Ezra: He noticed you were out here?
+
 Scout: Yeah. I thought that was strange, but I suppose he does have a reason to keep an eye on everyone&#39;s comings and goings.] 
 
 Ezra: ...I don&#39;t want to talk about Duke right now. So, uh, tell me about what you did after you left yesterday. 
@@ -1726,21 +1748,21 @@ Duke: I&#39;ll fill you in if at my office if you decide to take me up on my off
 
 Scout: Alright, thank you sir. 
 
-(text-colour:grey)[You say your goodbyes, and Duke waves you off as you walk away(if: (history:) contains &quot;D2D Success&quot;)[, already being approached by yet another citizen]. You suddenly realize It&#39;s already noon- time to go to work.]
+(text-colour:grey)[You say your goodbyes, and Duke waves you off as you walk away(if: (history:) does not contain &quot;D2D Success&quot;)[, already being approached by yet another citizen]. You suddenly realize It&#39;s already noon- time to go to work.]
 
 [[Go to work|D2 Afternoon]]
-</tw-passagedata><tw-passagedata pid="83" name="D2 Afternoon" tags="" position="2550,1000" size="100,100">work time!! do your task
+(if: (history:) contains &quot;D2D Leave Duke&quot;)[
+(if:$D2ezraVisit is false)[[[Visit Ezra|D2 Ezra]] ]
+(if:$D2gilVisit is false)[[[Visit the apothecary|D2 Gil]] ] ]
+</tw-passagedata><tw-passagedata pid="83" name="D2 Afternoon" tags="" position="2550,1000" size="100,100">(text-colour:grey)[Your task for the day is to gather plants and herbs from the forest. You&#39;ve received a list of the things you&#39;ve been assigned to gather.]
 
-gather plants from the forest and you have to remember which ones are the right ones
+Scout: Let&#39;s see... I&#39;m supposed to be looking for...
 
+Scout: (text-colour:green)[Miner&#39;s Lettuce], (text-colour:green)[Field Mint], (text-colour:green)[Wild Garlic], and (text-colour:green)[Stinging Nettles].
 
-(text-colour:grey)[Your task for the day is to gather plants and herbs from the forest. Sasha gave you a map at the start of the week, telling you which patches to gather from and several landmarks to orient yourself with.
+Scout: Off I go, then. 
 
-Let&#39;s see, they needed... miner&#39;s lettuce, wild yams, ramps, and stinging nettles.]
-
-Scout: Off we go, then. 
-
-(text-colour:grey)[You&#39;re able to find the first three patches of wild food without any issue, but when you arrive at the stinging nettle patch you suddenly realize you don&#39;t quite remember how to gather and prepare them without hurting yourself.]
+(text-colour:grey)[You find the first three things on your lift without any issue, but when you arrive at the stinging nettle patch you suddenly realize you don&#39;t quite remember how to gather and prepare them without hurting yourself.]
 
 [[Use gloves and soak in water after picking|D2A Success]]
 [[Pour water over the plants and wait ten minutes before picking|D2A Failure]]</tw-passagedata><tw-passagedata pid="84" name="D2A Success" tags="" position="2475,1125" size="100,100">(set: $D2Asuccess to true)
@@ -1753,9 +1775,9 @@ After gathering a good amount of the nettles, you tie them together with some th
 Right as you fish the dripping nettles out of the river, you hear the crunch of leaves behind you.]
 
 [[Scout: Hello? Who&#39;s there?|D2A Sasha Success]] </tw-passagedata><tw-passagedata pid="85" name="D2A Failure" tags="" position="2625,1125" size="100,100">(set: $D2Asuccess to false)
-(text-colour:red)[(--Regard)]  (set: $Regard to it-1)
+(text-colour:red)[(--Reputation)]  (set: $Reputation to it-1)
 
-(text-colour:grey)[You remember Sasha saying that the stings go away after the nettles are soaked in water... but they&#39;ll sting you if you try to pick them. There&#39;s a pail sitting next to the nearby river, so maybe that&#39;s what it&#39;s for?
+(text-colour:grey)[You remember someone saying that the stings go away after the nettles are soaked in water... but they&#39;ll sting you if you try to pick them. There&#39;s a pail sitting next to the nearby river, so maybe that&#39;s what it&#39;s for?
 
 You fill the pail and pour it over a small part of the patch, then reach out for the nettles - Ouch! 
 
@@ -2171,8 +2193,8 @@ Gil: And hey, if you ever want to chat again, you know where to find me.
 Scout: Yeah... Thanks again. 
 
 
-(if:$D2ezraVisit is false)[[Pay Ezra a visit|D2 Ezra]]
-(if:$D2dukeVisit is false)[[Consult Duke|D2 Duke]]</tw-passagedata><tw-passagedata pid="100" name="D2G Gil&#39;s Right" tags="" position="3150,250" size="100,100">Scout: Yeah... I guess you&#39;re right. 
+(if:$D2ezraVisit is false)[[[Pay Ezra a visit|D2 Ezra]]]
+(if:$D2dukeVisit is false)[[[Consult Duke|D2 Duke]]]</tw-passagedata><tw-passagedata pid="100" name="D2G Gil&#39;s Right" tags="" position="3150,250" size="100,100">Scout: Yeah... I guess you&#39;re right. 
 
 Scout: It&#39;s um... kind of a delicate topic though. I don&#39;t want to make them... uncomfortable. Or to upset them. 
 
@@ -2480,7 +2502,8 @@ Scout: Oh- okay. When would be a good time...?
 
 Duke: Well, I&#39;ve got somethin&#39; I&#39;d like you to do after your shift if you&#39;ve got the time anyway, so you should come over to my office in the evening. We can talk then.
 
-[[Scout: Extra work?|D2D Extra Task]]</tw-passagedata><tw-passagedata pid="108" name="D2D Failure" tags="" position="2875,800" size="100,100">Scout: But- please, I just-
+[[Scout: Extra work?|D2D Extra Task]]</tw-passagedata><tw-passagedata pid="108" name="D2D Failure" tags="" position="2875,800" size="100,100">(set:$D2invesFail to true)
+Scout: But- please, I just-
 
 Duke: Enough. My mind is made up. I don&#39;t want to hear any more about this right now.
 
