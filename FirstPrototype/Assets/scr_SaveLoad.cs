@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class scr_SaveLoad : MonoBehaviour
@@ -12,6 +13,7 @@ public class scr_SaveLoad : MonoBehaviour
     public SaveFile save = new SaveFile();
     public string openBlock;
     public pause_script p_script;
+    public GameObject cam;
     //public string SavedBlock;
     //public bool D1TryDoor, D1Wait, D1Coach,
     //    D1Neighbor, D1Promise, 
@@ -21,6 +23,7 @@ public class scr_SaveLoad : MonoBehaviour
     private void Start()
     {
         p_script = gameObject.GetComponent<pause_script>();
+        cam = GameObject.FindGameObjectWithTag("MainCamera");
     }
     private void FixedUpdate()
     {
@@ -30,6 +33,9 @@ public class scr_SaveLoad : MonoBehaviour
     public void SaveGame()
     {
         save.SavedBlock = openBlock;
+        save.SavedCamPosX = cam.transform.position.x;
+        save.SavedCamPosY = cam.transform.position.y;
+        save.SavedCamPosZ = cam.transform.position.z;
 
         save.D1TryDoor = MFlowchart.GetBooleanVariable("D1TryDoor");
         save.D1Wait = MFlowchart.GetBooleanVariable("D1Wait");
@@ -66,6 +72,10 @@ public class scr_SaveLoad : MonoBehaviour
         Destroy(OpenMenu);
         LoadFromJson();
 
+        //Go to the saved block. Moved above int and bool loads to try and get rid of the 'double dip stat buff' bug
+        MFlowchart.ExecuteBlock(save.SavedBlock);
+        cam.transform.transform.position = new Vector3(save.SavedCamPosX, save.SavedCamPosY, save.SavedCamPosZ);
+        
         //Load all the bools
         MFlowchart.SetBooleanVariable("D1TryDoor", save.D1TryDoor);
         MFlowchart.SetBooleanVariable("D1Wait", save.D1Wait);
@@ -80,14 +90,13 @@ public class scr_SaveLoad : MonoBehaviour
         MFlowchart.SetIntegerVariable("Attachment", save.Attachment);
         MFlowchart.SetIntegerVariable("Love", save.Love);
         MFlowchart.SetIntegerVariable("Regard", save.Regard);
-        //Go to the saved block
-        MFlowchart.ExecuteBlock(save.SavedBlock);
     }
 }
 [System.Serializable]
 public class SaveFile
 {
     public string SavedBlock;
+    public float SavedCamPosX, SavedCamPosY, SavedCamPosZ;
     public bool D1TryDoor, D1Wait, D1Coach,
       D1Neighbors, D1Promise,
       NothingDuke, ChoseDuke, FlowersGot;
