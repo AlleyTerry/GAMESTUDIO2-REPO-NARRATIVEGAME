@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class scr_SaveLoad : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class scr_SaveLoad : MonoBehaviour
     public string openBlock;
     public pause_script p_script;
     public GameObject cam;
+    public Scene currentScene;
     //public string SavedBlock;
     //public bool D1TryDoor, D1Wait, D1Coach,
     //    D1Neighbor, D1Promise, 
@@ -28,6 +30,16 @@ public class scr_SaveLoad : MonoBehaviour
     private void FixedUpdate()
     {
         openBlock = MFlowchart.SelectedBlock.BlockName;
+        currentScene = SceneManager.GetActiveScene();
+        if (Input.GetKey(KeyCode.O))
+        {
+            DisplayCurrentScene();
+        }
+    }
+
+    private void DisplayCurrentScene()
+    {
+        Debug.Log(currentScene.name);
     }
 
     public void SaveGame()
