@@ -54,9 +54,32 @@ public class scr_SaveLoad : MonoBehaviour
         save.D1Coach = MFlowchart.GetBooleanVariable("D1Coach");
         save.D1Neighbors = MFlowchart.GetBooleanVariable("D1Neighbors");
         save.D1Promise = MFlowchart.GetBooleanVariable("D1Promise");
+        save.D1CommonSense = MFlowchart.GetBooleanVariable("D1CommonSense");
+        save.D1Duty = MFlowchart.GetBooleanVariable("D1Duty");
+        save.D1GuessNot = MFlowchart.GetBooleanVariable("D1GuessNot");
         save.NothingDuke = MFlowchart.GetBooleanVariable("NothingDuke");
         save.ChoseDuke = MFlowchart.GetBooleanVariable("ChoseDuke");
         save.FlowersGot = MFlowchart.GetBooleanVariable("FlowersGot");
+        save.JerkyGot = MFlowchart.GetBooleanVariable("JerkyGot");
+        save.D1MetGil = MFlowchart.GetBooleanVariable("D1MetGil");
+        save.D1MetSasha = MFlowchart.GetBooleanVariable("D1MetSasha");
+        save.D1Work = MFlowchart.GetBooleanVariable("D1Work");
+        save.D1SENeutral = MFlowchart.GetBooleanVariable("D1SENeutral");
+        save.D1SDukeUnsure = MFlowchart.GetBooleanVariable("D1SDukeUnsure");
+
+        save.D2Investigate = MFlowchart.GetBooleanVariable("D2Investigate");
+        save.D2InvFail = MFlowchart.GetBooleanVariable("D2InvFail");
+        save.D2GilVisit = MFlowchart.GetBooleanVariable("D2GilVisit");
+        save.D2DukeVisit = MFlowchart.GetBooleanVariable("D2DukeVisit");
+        save.GoodWeather = MFlowchart.GetBooleanVariable("GoodWeather");
+        save.D2Skeptical = MFlowchart.GetBooleanVariable("D2Skeptical");
+        save.D2Concern = MFlowchart.GetBooleanVariable("D2Concern");
+        save.D2Fail = MFlowchart.GetBooleanVariable("D2Fail");
+        save.D2LeaveDuke = MFlowchart.GetBooleanVariable("D2LeaveDuke");
+        save.D2EzraVisit = MFlowchart.GetBooleanVariable("D2EzraVisit");
+        save.D2ETakeAdvice = MFlowchart.GetBooleanVariable("D2ETakeAdvice");
+        save.D2EBarStory = MFlowchart.GetBooleanVariable("D2EBarStory");
+        save.D2EForestStory = MFlowchart.GetBooleanVariable("D2EForestStory");
 
         save.Trust = MFlowchart.GetIntegerVariable("Trust");
         save.Attachment = MFlowchart.GetIntegerVariable("Attachment");
@@ -97,6 +120,26 @@ public class scr_SaveLoad : MonoBehaviour
         MFlowchart.SetBooleanVariable("NothingDuke", save.NothingDuke);
         MFlowchart.SetBooleanVariable("ChoseDuke", save.ChoseDuke);
         MFlowchart.SetBooleanVariable("FlowersGot", save.FlowersGot);
+        MFlowchart.SetBooleanVariable("JerkyGot", save.JerkyGot);
+        MFlowchart.SetBooleanVariable("D1MetGil", save.D1MetGil);
+        MFlowchart.SetBooleanVariable("D1MetSasha", save.D1MetSasha);
+        MFlowchart.SetBooleanVariable("D1Work", save.D1Work);
+        MFlowchart.SetBooleanVariable("D1SENeutral", save.D1SENeutral);
+        MFlowchart.SetBooleanVariable("D1SDukeUnsure", save.D1SDukeUnsure);
+
+        MFlowchart.SetBooleanVariable("D2Investigate", save.D2Investigate);
+        MFlowchart.SetBooleanVariable("D2InvFail", save.D2InvFail);
+        MFlowchart.SetBooleanVariable("D2GilVisit", save.D2GilVisit);
+        MFlowchart.SetBooleanVariable("D2DukeVisit", save.D2DukeVisit);
+        MFlowchart.SetBooleanVariable("GoodWeather", save.GoodWeather);
+        MFlowchart.SetBooleanVariable("D2Skeptical", save.D2Skeptical);
+        MFlowchart.SetBooleanVariable("D2Concern", save.D2Concern);
+        MFlowchart.SetBooleanVariable("D2Fail", save.D2Fail);
+        MFlowchart.SetBooleanVariable("D2LeaveDuke", save.D2LeaveDuke);
+        MFlowchart.SetBooleanVariable("D2EzraVisit", save.D2EzraVisit);
+        MFlowchart.SetBooleanVariable("D2ETakeAdvice", save.D2ETakeAdvice);
+        MFlowchart.SetBooleanVariable("D2EBarStory", save.D2EBarStory);
+        MFlowchart.SetBooleanVariable("D2EForestStory", save.D2EForestStory);
         //Load all the ints
         MFlowchart.SetIntegerVariable("Trust", save.Trust);
         MFlowchart.SetIntegerVariable("Attachment", save.Attachment);
@@ -111,6 +154,13 @@ public class SaveFile
     public float SavedCamPosX, SavedCamPosY, SavedCamPosZ;
     public bool D1TryDoor, D1Wait, D1Coach,
       D1Neighbors, D1Promise,
-      NothingDuke, ChoseDuke, FlowersGot;
+      NothingDuke, ChoseDuke, FlowersGot,
+      D1CommonSense, JerkyGot, D1MetGil,
+       D1MetSasha, D1Work, D1SENeutral, D1SDukeUnsure,
+        D2Investigate, D2InvFail, D2GilVisit,
+        D2DukeVisit, GoodWeather, D2Skeptical,
+        D2Concern, D2Fail, D2LeaveDuke,
+        D2EzraVisit, D2ETakeAdvice, D2EBarStory,
+        D2EForestStory, D1Duty, D1GuessNot;
     public int Trust, Attachment, Love, Regard;
 }
