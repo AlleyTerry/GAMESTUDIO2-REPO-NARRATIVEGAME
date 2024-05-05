@@ -47,6 +47,35 @@ public class InventoryNew : MonoBehaviour
         }
     }
 
+    public void RemoveItem()
+    {
+        StringVariable currentItemStringVar = MainFlowchart.GetVariable("CurrentItem") as StringVariable;
+        //currentItemStringVar.Value = currentItemString;
+        Debug.Log(currentItemStringVar + "is the current item being held");
+        
+        
+        //setting a variable from the flowchart in code
+        //BooleanVariable boolVar = MainFlowchart.GetVariable("MyBool") as BooleanVariable; 
+        //boolVar.Value = false;
+        string newPath = "Prefabs/Items/" + currentItemStringVar;
+        Debug.Log(newPath);
+        itemToAdd = (ItemsNew)Instantiate(Resources.Load<ScriptableObject>(newPath));
+        Debug.Log(itemToAdd);
+        for (int i = 0; i < itemSlots.Length; i++)
+        {
+            Debug.Log(itemSlots[i].name);
+            if (itemSlots[i].isFull == true && itemSlots[i].tag == itemToAdd.itemName)
+            {
+                itemSlots[i].nameButton.gameObject.SetActive(false);
+                Debug.Log("hey the first part is working");
+                itemSlots[i].TestDebug();
+                itemSlots[i].gameObject.SetActive(false);
+                break;
+            }
+            
+            
+        }
+    }
 
    
 
