@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Flower
   m_EditorClassIdentifier: 
   itemName: Flower
-  itemDesc: Shasha's Flower
+  itemDesc: "A flower Sasha gave me. It\u2019s pretty- might make a nice gift."
   itemIcon: {fileID: 21300000, guid: e619da3032e262749b3520302f34d582, type: 3}

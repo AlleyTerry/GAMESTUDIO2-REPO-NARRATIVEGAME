@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Jerky
   m_EditorClassIdentifier: 
   itemName: Jerky
-  itemDesc: Yum Jerky
+  itemDesc: A gift from Gil. Artisanal meats are a rarity nowadays.
   itemIcon: {fileID: 21300000, guid: c5d4f6df2f812384c8064579ff76a630, type: 3}
