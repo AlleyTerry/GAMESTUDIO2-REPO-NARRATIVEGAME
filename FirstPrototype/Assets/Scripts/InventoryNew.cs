@@ -29,22 +29,26 @@ public class InventoryNew : MonoBehaviour
         //boolVar.Value = false;
         string newPath = "Prefabs/Items/" + currentItemStringVar;
         Debug.Log(newPath);
-        itemToAdd = (ItemsNew)Instantiate(Resources.Load<ScriptableObject>(newPath));
-        Debug.Log(itemToAdd);
-        for (int i = 0; i < itemSlots.Length; i++)
+        if (currentItemStringVar != null)
         {
-            Debug.Log(itemSlots[i].name);
-            if (itemSlots[i].isFull == false && itemSlots[i].tag == itemToAdd.itemName)
+            itemToAdd = (ItemsNew)Instantiate(Resources.Load<ScriptableObject>(newPath));
+            Debug.Log(itemToAdd);
+            for (int i = 0; i < itemSlots.Length; i++)
             {
-                itemSlots[i].nameButton.gameObject.SetActive(true);
-                Debug.Log("hey the first part is working");
-                itemSlots[i].TestDebug();
-                itemSlots[i].addItem(itemToAdd);
-                break;
+                Debug.Log(itemSlots[i].name);
+                if (itemSlots[i].isFull == false && itemSlots[i].tag == itemToAdd.itemName)
+                {
+                    itemSlots[i].nameButton.gameObject.SetActive(true);
+                    Debug.Log("hey the first part is working");
+                    itemSlots[i].TestDebug();
+                    itemSlots[i].addItem(itemToAdd);
+                    break;
+                }
+            
+            
             }
-            
-            
         }
+        
     }
 
     public void RemoveItem()
