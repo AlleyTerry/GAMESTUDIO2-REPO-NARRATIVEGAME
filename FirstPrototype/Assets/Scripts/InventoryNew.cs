@@ -29,8 +29,8 @@ public class InventoryNew : MonoBehaviour
         //boolVar.Value = false;
         string newPath = "Prefabs/Items/" + currentItemStringVar;
         Debug.Log(newPath);
-        if (currentItemStringVar != null)
-        {
+        
+        
             itemToAdd = (ItemsNew)Instantiate(Resources.Load<ScriptableObject>(newPath));
             Debug.Log(itemToAdd);
             for (int i = 0; i < itemSlots.Length; i++)
@@ -47,7 +47,7 @@ public class InventoryNew : MonoBehaviour
             
             
             }
-        }
+        
         
     }
 
