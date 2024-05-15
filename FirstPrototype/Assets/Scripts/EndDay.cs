@@ -11,6 +11,8 @@ public class EndDay : MonoBehaviour
     //set enmum days
     //make switch statement and cases for ending each day
     public static EndDay instance;
+
+    public GameObject persistentObjects;
     
 
     public enum Days
@@ -63,8 +65,16 @@ public class EndDay : MonoBehaviour
                 MainFlowChart.ExecuteBlock("Day5START");
                 break;
         }
-        
-        
+
+     
 
     }
+    public void DestroyAll()
+    {
+        SceneManager.LoadScene("TitleScreen");
+        Destroy(persistentObjects);
+        
+    }
+
+
 }
