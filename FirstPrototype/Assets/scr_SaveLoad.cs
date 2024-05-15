@@ -29,7 +29,10 @@ public class scr_SaveLoad : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        openBlock = MFlowchart.SelectedBlock.BlockName;
+        if (MFlowchart.SelectedBlock != null)
+        {
+            openBlock = MFlowchart.SelectedBlock.BlockName;
+        }
         currentScene = SceneManager.GetActiveScene();
         if (Input.GetKey(KeyCode.O))
         {
